@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+
+    android:background="@drawable/background">
+
+
+
+        <TextView
+            android:layout_marginTop="80dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Quiz"
+            android:textColor="@android:color/background_light"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:gravity="center_horizontal" />
+
+
+
+
+    <Button
+        android:id="@+id/ButtonQuiz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/class_background"
+        android:text="Start Quiz"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:padding="10dp"
+        android:layout_marginTop="300dp"
+        android:layout_gravity="center_horizontal"
+        android:backgroundTint="@color/whiteTextColor"
+        android:textColor="@color/primaryTextColor" />
+
+
+
+</LinearLayout>

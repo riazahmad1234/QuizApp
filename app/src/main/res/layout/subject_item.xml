@@ -1,0 +1,19 @@
+<LinearLayout
+    android:orientation="horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="20dp"
+    android:backgroundTint="#F3F3F3"
+    android:background="@drawable/class_background"
+    android:layout_margin="4dp">
+    <TextView
+        android:id="@+id/subject_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="title"
+        android:textColor="@android:color/background_dark"
+        android:textStyle="bold"
+        android:textSize="18sp"/>
+
+</LinearLayout>
